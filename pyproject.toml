@@ -1,0 +1,13 @@
+[project]
+name = "product-profit-calculator"
+version = "0.1.0"
+description = "MVP Product Profit Calculator using MCP servers to validate e-commerce product profitability"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.2.6",
+    "langchain-mcp-adapters>=0.2.1",
+    "langchain-openai>=1.1.7",
+    "python-dotenv>=1.2.1",
+    "streamlit>=1.53.1",
+]
